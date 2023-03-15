@@ -17,7 +17,7 @@ var x = setInterval(function() {
   document.getElementById("demo").innerHTML = days + " " + namingDays + " " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
-  if (interval < 0) {
+  if (interval <= 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "YOU ARE AT HOME";
   }
