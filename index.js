@@ -1,4 +1,4 @@
-var countDownDate = new Date("Mar 18, 2023 08:00:00").getTime();
+var countDownDate = new Date("Apr 24, 2023 00:00:00").getTime();
 
 var x = setInterval(function() {
 
@@ -19,6 +19,6 @@ var x = setInterval(function() {
 
   if (interval <= 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "YOU ARE AT HOME";
+    document.getElementById("demo").innerHTML = "Happy birthday!";
   }
 }, 1000);
