@@ -19,6 +19,6 @@ var x = setInterval(function() {
 
   if (interval <= 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "Happy birthday!";
+    document.getElementById("demo").innerHTML = "Enjoy in Istanbul!";
   }
 }, 1000);
